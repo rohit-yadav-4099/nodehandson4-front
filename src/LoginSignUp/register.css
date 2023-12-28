@@ -1,0 +1,197 @@
+.register {
+    height: 60vh;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.create_acc {
+    height: 0vh;
+}
+
+.heading {
+    color: #1ad1ff;
+}
+
+.under_div {
+    min-height: 20%;
+    width: 20%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(251, 120, 220, 0.67);
+}
+
+.under_register {
+    line-height: 8vh;
+    height: 100%;
+    width: 50vh;
+    background-image: linear-gradient(to bottom, #ccffff, #e6ffff);
+    /* border: 2px solid black; */
+}
+
+.name {
+    display: block;
+    font-size: 1.5em;
+}
+
+#name {
+    height: 3vh;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.184);
+    /* text-transform: capitalize; */
+    text-align: center;
+}
+
+.emailregister {
+    display: block;
+    font-size: 1.5em;
+
+}
+
+form {
+    height: 45vh;
+}
+
+#emailregister {
+    height: 3vh;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.186);
+    /* text-transform: capitalize; */
+    text-align: center;
+}
+
+.passwordregiter {
+    display: block;
+    font-size: 1.5em;
+}
+
+#passwordregiter {
+    height: 3vh;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.186);
+    /* text-transform: capitalize; */
+    text-align: center;
+}
+
+.numregister {
+    display: block;
+    font-size: 1.5em;
+}
+
+#numregister {
+    height: 3vh;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.186);
+    /* text-transform: capitalize; */
+    text-align: center;
+}
+
+.submitbtn {
+    width: 9vw;
+    height: 5vh;
+    font-size: large;
+    background-color: #197373;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid yellow;
+
+}
+
+.submitbtn:hover {
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.gotoregister {
+    color: rgb(65, 64, 64);
+}
+
+@media screen and (min-width:300px) and (max-width:500px) {
+
+
+    .register {
+        height: 120vh;
+        width: 90vw;
+        margin: auto;
+        flex-direction: column;
+
+
+    }
+
+
+    .under_div {
+        height: 100%;
+        width: 90vw;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .under_register {
+        height: 100%;
+    }
+
+
+    .submitbtn {
+        height: 5vh;
+        width: 40vw;
+        background-color: #1ad1ff;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 5px;
+
+    }
+
+}
+
+
+
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+
+
+    .register {
+        height: 120vh;
+        width: 90vw;
+        margin: auto;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+
+
+    }
+
+
+    .under_div {
+        height: 100%;
+        width: 90vw;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .under_register {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .submitbtn {
+        height: 5vh;
+        width: 40vw;
+        background-color: #1ad1ff;
+        font-size: larger;
+        font-weight: bold;
+        border-radius: 5px;
+
+    }
+
+}
